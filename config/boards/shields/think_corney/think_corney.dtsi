@@ -69,7 +69,7 @@ nice_view_spi: &spi0 {
     cs-gpios = <&xiao_d 0 GPIO_ACTIVE_HIGH>; // Not the default 1
 };
 
-&pro_micro_i2c {
+&xiao_i2c {
     status = "disabled";
 };
 
